@@ -11,7 +11,7 @@ namespace ContosoUniversity.Data
         {
             context.Database.EnsureCreated();
 
-            if (context.Students.Any)
+            if (context.Student.Any())
             {
                 return;
             }
